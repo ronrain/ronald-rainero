@@ -22,9 +22,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
@@ -37,29 +34,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#education">Education</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
             </ul>
             
         </div>
     </div>
 </nav>
- <!-- main banner -->
- <section class="bgimage" id="home">
-  <div class="container-fluid">
-      <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-          <h2 class="hero_title">Hi, it's me Brad</h2>
-          <p class="hero_desc">I am a professional freelancer in New York City</p>
-      </div>
-      </div>
-  </div>
-</section>
 <!-- about section-->
 <section id="about">
   <div class="container mt-4 pt-4">
-      <h1 class="text-center">About Me</h1>
+      <h1 class="text-center">About Me <span><i class="fas fa-book-open" style="padding-left: .4rem;"></i></span></h1>
       <div class="row mt-4">
           <div class="col-lg-4">
               <img src="images/selfie.jpeg" class= "imageAboutPage" alt="">
@@ -68,35 +51,26 @@
           <div class="col-lg-8">
               <p> I am Ronald Rainero, located in Staten Island, NY, and I'm a dedicated professional with a diverse background and a strong passion for continuous learning. Holding a master's degree in public health and having experience in software engineering, electrical work, and program coordination, I bring a unique blend of skills to the table. My journey has honed my organizational and problem-solving abilities, allowing me to excel in various roles. I'm a committed team player with effective communication and active listening skills, and my leadership abilities shine through my critical thinking, decision-making, and problem-solving capabilities. I pride myself on efficient time management, which has been crucial in handling multiple responsibilities.
               </p>
-              <!-- <div class="row mt-3">
-                  <div class="col-md-6">
-                      <ul>
-                          <li>Name: David Parker</li>
-                          <li>Age: 28</li>
-                          <li>Occupation: Web Developer</li>
-
-                      </ul>
-                  </div>
-                  <div class="col-md-6">
-                      <ul>
-                          <li>Name: David Parker</li>
-                          <li>Age: 28</li>
-                          <li>Occupation: Web Developer</li>
-
-                      </ul>
-                  </div>
-              </div> -->
               <div class="row mt-3">
                   <p>  My technical expertise spans languages like Python, JavaScript, HTML, CSS, SQL, and more, making me versatile in various technical endeavors. I'm also known for my self-discipline, creativity, and understanding of different cultures, which enhance my exceptional interpersonal skills. Whether I'm upgrading electrical systems, managing programs, or contributing to technical projects, my passion for growth and adaptability sets me apart. I recently completed a Software Engineering Fellowship at General Assembly, equipping me to thrive in the ever-evolving tech world. I am a persistent learner, a dedicated team player, and an invaluable asset to any endeavor I undertake.
                   </p>
               </div>
+              <div class="container-fluid">
+                <!-- social media icons -->
+                <div class="social-icons mt-4">
+                    <a href="https://github.com/ronrain" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ronald-rainero/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:rarainero@gmail.com" target="_blank"><i class="fas servicesIcon fa-envelope"></i></a>
+                </div>
+            </div>
+            </div>
           </div>
       </div>
 </section>
 <!-- portfolio section-->
 <section id="portfolio">
   <div class="container mt-3">
-      <h1 class="text-center">Portfolio</h1>
+      <h1 class="text-center">Portfolio<span><i class="fas fa-layer-group" style="padding-left: .4rem;"></i></span></h1>
       <div class="row">
         <div class="col-lg-4 mt-4">
             <div class="card portfolioContent">
@@ -142,12 +116,12 @@
 <!-- services section-->
 <section id="experience">
   <div class="container">
-      <h1 class="text-center">Experience</h1>
+      <h1 class="text-center title">Experience <span><i class="fas fa-briefcase" style="padding-left: .4rem;"></i></span></h1>
       <div class="row">
           <div class="col-lg-6 mt-4">
               <div class="card servicesText" style="height: 100%;">
                   <div class="card-body">
-                      <i class="fas servicesIcon fa-clock"></i>
+                      <i class='fas servicesIcon fa-bolt'></i>
                       <h4 class="card-title mt-3">Apprentice Electrican</h4>
                       <p class="card-title mt-3">Local Union No. 3, IBEW, AFL-CIO 
                       </p>
@@ -169,7 +143,7 @@
           <div class="col-lg-6 mt-4">
               <div class="card servicesText" style="height: 100%">
                   <div class="card-body">
-                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <i class='fas servicesIcon fa-map'></i>
                       <h4 class="card-title mt-3">Program Coordinator</h4>
                       <p class="card-title mt-3">AmeriCorps New Jersey Bonner - ACE
                       </p>
@@ -197,23 +171,29 @@
 <!-- Education section-->
 <section id="education">
   <div class="container">
-      <h1 class="text-center">Education</h1>
+      <h1 class="text-center title">Education<span><i class="fas fa-school" style="padding-left: .4rem;"></i></span></h1>
       <div class="row">
           <div class="col-lg-4 mt-4">
               <div class="card servicesText">
                   <div class="card-body">
-                      <i class="fas servicesIcon fa-clock"></i>
+                      <i class="fas servicesIcon fa-laptop-code"></i>
                       <h4 class="card-title mt-3">General Assembly</h4>
                       <p class="card-text mt-3">Software Engineering Bootcamp Certification 
                       </p>
                       <p>2023</p>
+                      <div class="text-center">
+                        <a href="https://drive.google.com/file/d/13fRrDkRh27OeKje2bqSPf6vckZnkUP07/view" target="_blank">
+                          <i class="fas fa-certificate fa-lg"></i>
+                      </a>
+                      
+                    </div>
                   </div>
               </div>  
           </div>
           <div class="col-lg-4 mt-4">
               <div class="card servicesText">
                   <div class="card-body">
-                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <i class='fas servicesIcon fa-graduation-cap'></i>
                       <h4 class="card-title mt-3">The College of New Jersey</h4>
                       <p class="card-text mt-3">Masters of Science in Public Health, Specialization in Epidemiology and Health Analytics
                       </p>
@@ -237,49 +217,14 @@
     </div>
   </div>
 </section>
-<!-- contact section-->
-<section id="contact">
-  <div class="container mt-3 contactContent">
-      <h1 class="text-center">Contact Me</h1>
 
-      <div class="row mt-4">
-          <div class="col-lg-6">
-              <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-              <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                  <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                      </iframe>
-                  </div>
-                  <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                  <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                  </style>
-              </div>
-          </div>
-
-          <div class="col-lg-6">
-              <!-- form fields -->
-              <form>
-                  <input type="text" class="form-control form-control-lg" placeholder="Name">
-                  <input type="email" class="form-control mt-3" placeholder="Email">
-                  <input type="text" class="form-control mt-3" placeholder="Subject">
-                  <div class="mb-3 mt-3">
-                      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                  </div>
-              </form>
-              <button type="button" class="btn btn-success mt-3">Contact Me</button>
-              
-          </div>
-
-      </div>
-  </div>
-</section>
  <!-- footer section-->
  <footer id="footer">
   <div class="container-fluid">
       <!-- social media icons -->
       <div class="social-icons mt-4">
           <a href="https://github.com/ronrain" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-mail-bulk"></i></a>
+          <a href="mailto:rarainero@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
           <a href="https://www.linkedin.com/in/ronald-rainero/" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
   </div>
