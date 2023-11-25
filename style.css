@@ -1,3 +1,7 @@
+:root {
+  --title: 'Almarai', sans-serif;
+  --sec: 'Saira', sans-serif;
+}
 /* hero background image */
 .bgimage {
   height:100vh;
@@ -29,7 +33,7 @@
   height: 280px;
   cursor: pointer;
 }
-.servicesIcon {
+.servicesIcon, .profileIcon {
   font-size: 36px;
   text-align: center;
   width: 100%;
@@ -38,22 +42,22 @@
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: #008000;
+  color: red;
 }
 .servicesText:hover {
-  border: 1px solid #008000;
+  border: 1px solid red;
 }
 .navbarScroll.navbarDark {
   background-color: black;
 }
 /* social media icons styling */
-.social-icons {
+.social-icons, .docLinks {
   font-size: 36px;
   cursor: pointer;
   display: inline-block;
 }
 .fa-envelope:hover,.fa-linkedin:hover, .fa-github:hover {
-  color: #008000;
+  color: red;
 }
 .fab, .fas {
   color: #000000;
@@ -75,4 +79,26 @@
 #about {
   margin-top: 2rem;
   padding-top: 2rem;
+}
+
+p,li {
+  font-family: var(--sec);
+}
+
+h1, h4, .navlink {
+  font-family: var(--title);
+}
+
+.profileIcon {
+  display: inline-block;
+}
+
+/* Add this CSS to your existing styles */
+#footer .social-icons {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.navlink {
+  color: #000000;
 }
