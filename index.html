@@ -76,10 +76,11 @@
           </div>
           <div class="container-fluid">
             <!-- social media icons -->
-            <div class="social-icons mt-4">
+            <div class="social-icons mt-4" style="display: flex; align-items: center; justify-content: space-between;">
               <a href="https://github.com/ronrain" target="_blank"><i class="fab fa-github"></i></a>
               <a href="https://www.linkedin.com/in/ronald-rainero/" target="_blank"><i class="fab fa-linkedin"></i></a>
               <a href="mailto:rarainero@gmail.com" target="_blank"><i class="fas servicesIcon fa-envelope"></i></a>
+              <a href="https://docs.google.com/document/d/e/2PACX-1vRFR860fVkXO63kaTD4p-n8cXKlhW7ENE9irh2wXcVa1dtgfb52uaET5UNSY989ApAmKO2FP93fRpDZ/pub?embedded=true" target="_blank"><i class="fas fa-file"></i></a> 
             </div>
           </div>
         </div>
@@ -89,79 +90,58 @@
   <!-- portfolio section-->
   <section id="portfolio">
     <div class="container mt-3">
-      <h1 class="text-center">Portfolio<span><i class="fas fa-layer-group" style="padding-left: .4rem;"></i></span></h1>
-      <div class="row">
-        <div class="col-lg-4 mt-4">
-          <div class="card portfolioContent">
-            <img class="card-img-top" src="images/familyhealthbase.jpg" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">Family Health Base</h4>
-              <p class="card-text">"An easy-to-use application designed to keep track of doctor's appointments for
-                yourself, family, and friends, promoting a better quality of life. I used Python to create a
-                comprehensive CRUD system, enabling the creation, editing, and management of members and doctor
-                appointments. Additionally, I implemented Django views to handle HTTP requests and used templates to
-                generate dynamic HTML content. To enhance security, I integrated user authentication and role-based
-                authorization using Django's built-in features. Moreover, I employed Python scripts to execute various
-                database operations, including data retrieval and insertion, utilizing PostgreSQL via Django ORM.".</p>
-              <div class="text-center"><span>
-                  <a href="https://yourfamilyhealthbase.fly.dev/" target="_blank"></a><i class='fas profileIcon fa-link'></i></a>
-                  <a href="https://github.com/ronrain/Family-Health-Base" target="_blank"></a><i
-                    class='fab profileIcon fa-github-alt'></i></a>
-                </span>
-              </div>
+        <h1 class="text-center">Portfolio<span><i class="fas fa-layer-group" style="padding-left: .4rem;"></i></span></h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/familyhealthbase.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Family Health Base</h4>
+                        <p class="card-text">"An easy-to-use application designed to keep track of doctor's appointments for yourself, family, and friends, promoting a better quality of life. I used Python to create a comprehensive CRUD system, enabling the creation, editing, and management of members and doctor appointments. Additionally, I implemented Django views to handle HTTP requests and used templates to generate dynamic HTML content. To enhance security, I integrated user authentication and role-based authorization using Django's built-in features. Moreover, I employed Python scripts to execute various database operations, including data retrieval and insertion, utilizing PostgreSQL via Django ORM.".</p>
+                        <div class="text-center" style="display: flex; align-items: center; justify-content: space-between;">
+                            <a href="https://yourfamilyhealthbase.fly.dev/" target="_blank"></a><i class='fas profileIcon fa-link'></i></a>
+                            <a href="https://github.com/ronrain/Family-Health-Base" target="_blank"></a><i class='fab profileIcon fa-github-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/campusconnect.png" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">CampusConnect</h4>
-              <p class="card-text">A multifaceted application empowering college students to enhance their skills within
-                the campus community while gaining valuable entrepreneurial insights. This project includes full CRUD
-                functionality for service listings and service reviews, enabling students to easily update information
-                and enrich their platform experience. The application is built using JavaScript and React.js to deliver
-                dynamic and interactive features. It leverages the MEN stack, where Node.js serves as the server,
-                Express handles routing and middleware, and MongoDB efficiently manages data storage and retrieval,
-                ensuring a seamless user experience.</p>
-              <div class="text-center">
-                <a href="https://campus-connect1.netlify.app/" target="_blank"></a><i class='fas profileIcon fa-link'></i></a>
-                <a href="https://github.com/ronrain/Campus-Connect-front-end" target="_blank"></a><i
-                    class='fab profileIcon fa-github-alt'></i></a>
-              </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/campusconnect.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">CampusConnect</h4>
+                        <p class="card-text">A multifaceted application empowering college students to enhance their skills within the campus community while gaining valuable entrepreneurial insights. This project includes full CRUD functionality for service listings and service reviews, enabling students to easily update information and enrich their platform experience. The application is built using JavaScript and React.js to deliver dynamic and interactive features. It leverages the MEN stack, where Node.js serves as the server, Express handles routing and middleware, and MongoDB efficiently manages data storage and retrieval, ensuring a seamless user experience.</p>
+                        <div class="text-center" style="display: flex; align-items: center; justify-content: space-between;">
+                            <a href="https://campus-connect1.netlify.app/" target="_blank"></a><i class='fas fa-link profileIcon'></i></a>
+                            <a href="https://github.com/ronrain/Campus-Connect-front-end" target="_blank"></a><i class='fab fa-github-alt profileIcon'></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img class="card-img-top" src="images/healthchat.png" alt="Card image" style="width:100%">
-            <div class="card-body">
-              <h4 class="card-title">HealthChat</h4>
-              <p class="card-text">A dynamic web platform designed to facilitate user-generated discussions on health
-                concerns, empowering individuals to share their experiences, symptoms, and receive valuable feedback
-                from other users. This project encompasses the creation, editing, and management of health discussions,
-                replies, and symptoms through a robust JavaScript CRUD (Create, Read, Update, Delete) system. Real-time
-                user interaction and feedback are enabled through Node.js and Express, enhancing the user experience.
-                Additionally, secure access to user-generated content is ensured through Google Auth and Passport.js
-                authentication. All user information is efficiently stored and managed in a MongoDB database using
-                Mongoose.</p>
-              <div class="text-center">
-                <a href="https://healthchat.fly.dev/" target="_blank"></a><i class='fas profileIcon fa-link'></i></a>
-                <a href="https://github.com/ronrain/HealthChat" target="_blank"></a><i
-                  class='fab profileIcon fa-github-alt'></i></a>
-              </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/healthchat.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">HealthChat</h4>
+                        <p class="card-text">A dynamic web platform designed to facilitate user-generated discussions on health concerns, empowering individuals to share their experiences, symptoms, and receive valuable feedback from other users. This project encompasses the creation, editing, and management of health discussions, replies, and symptoms through a robust JavaScript CRUD (Create, Read, Update, Delete) system. Real-time user interaction and feedback are enabled through Node.js and Express, enhancing the user experience. Additionally, secure access to user-generated content is ensured through Google Auth and Passport.js authentication. All user information is efficiently stored and managed in a MongoDB database using Mongoose.</p>
+                        <div class="text-center" style="display: flex; align-items: center; justify-content: space-between;">
+                            <a href="https://healthchat.fly.dev/" target="_blank"></a><i class='fas profileIcon fa-link'></i></a>
+                            <a href="https://github.com/ronrain/HealthChat" target="_blank"></a><i class='fab profileIcon fa-github-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-  </section>
+    </div>
+</section>
+
   <!-- services section-->
   <section id="experience">
     <div class="container">
       <h1 class="text-center title">Experience <span><i class="fas fa-briefcase"
             style="padding-left: .4rem;"></i></span></h1>
       <div class="row">
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-12 mt-4">
           <div class="card servicesText" style="height: 100%;">
             <div class="card-body">
               <i class='fas servicesIcon fa-bolt'></i>
@@ -189,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mt-4">
+        <div class="col-lg-12 mt-4">
           <div class="card servicesText" style="height: 100%">
             <div class="card-body">
               <i class='fas servicesIcon fa-map'></i>
@@ -243,8 +223,9 @@
               </p>
               <p>2023</p>
               <div class="text-center">
-                <a href="https://drive.google.com/file/d/13fRrDkRh27OeKje2bqSPf6vckZnkUP07/view" class="docLinks" target="_blank">
-                  <i class="fas fa-certificate fa-lg"></i>
+                <a href="https://drive.google.com/file/d/13fRrDkRh27OeKje2bqSPf6vckZnkUP07/view" class="docLinks"
+                  target="_blank">
+                  <i class="fas fa-certificate fa-lg profileIcon"></i>
                 </a>
 
               </div>
@@ -261,7 +242,8 @@
               </p>
               <p>2022</p>
               <div class="text-center">
-                <a href="https://media.licdn.com/dms/document/media/D4E2DAQGXURgia8J5xg/profile-treasury-document-pdf-analyzed/0/1661372985557?e=1701302400&v=beta&t=mYx_66AoTPqOUSFWRLlG7NTTb7uFV28llELZse1l45s" class="docLinks" target="_blank"><i class="fas fa-scroll"></i></a> 
+                <a href="https://media.licdn.com/dms/document/media/D4E2DAQGXURgia8J5xg/profile-treasury-document-pdf-analyzed/0/1661372985557?e=1701302400&v=beta&t=mYx_66AoTPqOUSFWRLlG7NTTb7uFV28llELZse1l45s"
+                  class="docLinks" target="_blank"><i class="fas fa-scroll profileIcon"></i></a>
               </div>
             </div>
           </div>
@@ -276,7 +258,8 @@
               </p>
               <p>2020</p>
               <div class="text-center">
-                <a href="https://media.licdn.com/dms/document/media/C4E2DAQGv00hflYROGQ/profile-treasury-document-pdf-analyzed/0/1596562414665?e=1701302400&v=beta&t=eKRri22XY-gdVZIpC0Ea8xgE9aUkaUoLDp_5hiWLEsE" class="docLinks" target="_blank"><i class="fas fa-scroll"></i></a> 
+                <a href="https://media.licdn.com/dms/document/media/C4E2DAQGv00hflYROGQ/profile-treasury-document-pdf-analyzed/0/1596562414665?e=1701302400&v=beta&t=eKRri22XY-gdVZIpC0Ea8xgE9aUkaUoLDp_5hiWLEsE"
+                  class="docLinks" target="_blank"><i class="fas fa-scroll profileIcon"></i></a>
               </div>
             </div>
           </div>
@@ -289,14 +272,18 @@
   <!-- footer section-->
   <footer id="footer">
     <div class="container-fluid">
-      <!-- social media icons -->
-      <div class="social-icons mt-4">
-        <a href="https://github.com/ronrain" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:rarainero@gmail.com" target="_blank"><i class="fas servicesIcon fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/ronald-rainero/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
+        <!-- social media icons -->
+        <div class="social-icons mt-4" style="display: flex; align-items: center; justify-content: space-between;">
+          <a href="https://github.com/ronrain" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ronald-rainero/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:rarainero@gmail.com" target="_blank"><i class="fas servicesIcon fa-envelope"></i></a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vRFR860fVkXO63kaTD4p-n8cXKlhW7ENE9irh2wXcVa1dtgfb52uaET5UNSY989ApAmKO2FP93fRpDZ/pub?embedded=true" target="_blank"><i class="fas fa-file"></i></a> 
+        </div>
     </div>
 </footer>
+
+
+
 
 
   <script src="script/script.js"></script>

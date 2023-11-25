@@ -66,14 +66,17 @@
 #footer {
   background-color: #808080;
   text-align: center;
+  padding: 1rem 4rem;
+  /* padding-bottom: 1rem; */
 }
 /* spacing on all sections */
 #experience, #portfolio, #education {
-  margin-top: 4rem;
-  padding-top: 4rem;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
 }
 #education {
   padding-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #about {
@@ -90,13 +93,19 @@ h1, h4, .navlink {
 }
 
 .profileIcon {
-  display: inline-block;
+  cursor: pointer;
+}
+
+:hover.profileIcon {
+  color: red;
 }
 
 /* Add this CSS to your existing styles */
-#footer .social-icons {
-    display: inline-block;
-    margin-right: 10px; /* Adjust as needed for spacing */
+.social-icons .mt-4{
+  display: inline-block;
+  margin-right: 10px; 
+  padding-bottom: 2rem;
+  margin-bottom: ;
 }
 
 .navlink {
