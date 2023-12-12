@@ -2,14 +2,7 @@
   --title: 'Almarai', sans-serif;
   --sec: 'Saira', sans-serif;
 }
-/* hero background image */
-.bgimage {
-  height:100vh;
-  background: url('images/background.jpeg');
-  background-size: cover;
-  position:relative;
-}
-/* text css above hero image*/
+
 .hero_title {
   font-size: 4.5rem;
 }
@@ -24,11 +17,11 @@
   transform: translate(-50%, -50%);
   color: black;
 }
-/* about section image css */
+
 .imageAboutPage {
   width: 100%;
 }
-/* services section css */
+
 .servicesText.card {
   height: 280px;
   cursor: pointer;
@@ -47,37 +40,38 @@
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: red;
+  color: #DC602E;
 }
 .servicesText:hover {
-  border: 1px solid red;
+  border: 1px solid #DC602E;
 }
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: #fd9c0d;
+  /* opacity: .85; */
+  color: white;
 }
-/* social media icons styling */
+
 .social-icons, .docLinks {
   font-size: 36px;
   cursor: pointer;
   display: inline-block;
 }
-.fa-envelope:hover,.fa-linkedin:hover, .fa-github:hover {
-  color: red;
+.fa-envelope:hover,.fa-linkedin:hover, .fa-github:hover, .fa-file:hover {
+  color: #DC602E;
 }
 .fab, .fas {
   color: #000000;
 }
-/* footer styling */
+
 #footer {
   background-color: #808080;
   text-align: center;
   padding: 1rem 4rem;
-  /* padding-bottom: 1rem; */
 }
-/* spacing on all sections */
+
 #experience, #portfolio, #education {
   margin-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 #interests {
   padding-bottom: 2rem;
@@ -102,29 +96,36 @@ h1, h4, .navlink {
 }
 
 :hover.profileIcon {
-  color: red;
+  color: #DC602E;
 }
 
-/* Add this CSS to your existing styles */
 .social-icons .mt-4{
   display: inline-block;
   margin-right: 10px; 
   padding-bottom: 2rem;
-  margin-bottom: ;
 }
 
-.navlink, .nav-item {
+a .navlink {
   color: #000000;
+  text-decoration: none;
+
 }
 
 .column-list {
-  column-count: 4; /* You can adjust the number of columns as needed */
-  column-gap: 20px; /* Adjust the gap between columns */
+  column-count: 4; 
+  column-gap: 20px; 
   list-style-type: none;
   padding: 0;
 }
 
 .column-list li {
-  margin-bottom: 10px; /* Adjust the spacing between list items */
+  margin-bottom: 10px;
 }
 
+.card.card-interests.card-body.interest-card:hover{
+  border-color: #DC602E;
+}
+
+.int-icon:hover{
+  color: #DC602E;
+}
