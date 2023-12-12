@@ -38,6 +38,11 @@
   text-align: center;
   width: 100%;
 }
+
+.card-interests{
+  padding-bottom: 200rem;
+}
+
 .card-title {
   text-align: center;
 }
@@ -74,7 +79,7 @@
   margin-top: 5rem;
   padding-bottom: 5rem;
 }
-#education {
+#interests {
   padding-bottom: 2rem;
   margin-bottom: 3rem;
 }
@@ -111,3 +116,15 @@ h1, h4, .navlink {
 .navlink, .nav-item {
   color: #000000;
 }
+
+.column-list {
+  column-count: 4; /* You can adjust the number of columns as needed */
+  column-gap: 20px; /* Adjust the gap between columns */
+  list-style-type: none;
+  padding: 0;
+}
+
+.column-list li {
+  margin-bottom: 10px; /* Adjust the spacing between list items */
+}
+
