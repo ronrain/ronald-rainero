@@ -31,9 +31,9 @@ body {
 .card:hover .servicesIcon {
   color: #DC602E;
 }
-.servicesText:hover {
+/* .servicesText:hover {
   border: 1px solid #DC602E;
-}
+} */
 .navbarScroll.navbarDark {
   background-color: #E3E7AF;
   /* opacity: .85; */
